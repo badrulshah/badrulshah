@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Muhammad Badrul Shah</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: white;
+            margin: 0;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navlist {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navlist li {
+            margin: 0 10px;
+        }
+
+        .navlist a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .hero {
+            text-align: center;
+            background-color: #0056b3;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+
+        .hero span {
+            color: #FFD700;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .about, .services, .portfolio, .contact {
+            background-color: #333;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .about-header, h2 {
+            text-align: center;
+        }
+
+        .services-content, .Portfolio-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .box {
+            background-color: #444;
+            border-radius: 8px;
+            padding: 20px;
+            width: calc(33% - 20px);
+            box-sizing: border-box;
+            color: white;
+        }
+
+        .box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .contact-form .send-btn {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .footer {
+            text-align: center;
+            background-color: #0056b3;
+            padding: 10px;
+            color: white;
+        }
+        .profile-pic {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Ensure it's square for a perfect circle */
+    border-radius: 50%;
+    border: 3px solid white; /* Optional: Add a border for better contrast */
+    margin: 20px auto; /* Center the image with top and bottom spacing */
+    display: block; /* Center-align the image */
+}
+    </style>
+   
+</head>
+<body>
+
+<header>
+    <h1>Portfolio of Muhammad Badrul Shah</h1>
+    <ul class="navlist">
+        <li><a href="portfolio.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</header>
+
+<section class="hero" id="home">
+    <h4>Welcome to My Portfolio</h4>
+    <img src="pic/badrulpic.jpeg" alt="Portfolio 1" class="profile-pic">
+    <h1>I am <span>Muhammad Badrul Shah</span></h1>
+    <p>
+        An aspiring website developer and multimedia creator from YPC International College. My expertise spans
+        website development, system design, and creative multimedia. I'm passionate about delivering impactful
+        solutions and growing through real-world experiences.
+    </p>
+</section>
+
+<section class="about" id="about">
+    <h2 class="about-header">About Me</h2>
+    <p>
+        Hi, I'm Badrul, a multimedia computing student with skills in web development, database management, and
+        design. I enjoy solving problems through technology and creating interactive and user-friendly applications.
+        I'm based in Pandan Perdana, Kuala Lumpur.
+    </p>
+</section>
+
+<section class="services" id="skills">
+    <h2>My Skills</h2>
+    <div class="services-content">
+        <div class="box">
+            <img src="portbad/code.JPG" alt="Coding">
+            <h3>Web Development</h3>
+            <p>Experienced in HTML, CSS, JavaScript, and PHP for creating dynamic, responsive websites.</p>
+        </div>
+        <div class="box">
+            <img src="portbad/photoshop.JPG" alt="Design">
+            <h3>Graphic Design</h3>
+            <p>Proficient in Adobe Illustrator and Photoshop for crafting visually appealing graphics.</p>
+        </div>
+        <div class="box">
+            <img src="portbad/database.JPG" alt="Database">
+            <h3>Database Management</h3>
+            <p>Skilled in MySQL and XAMPP for managing and retrieving data for web applications.</p>
+        </div>
+    </div>
+</section>
+
+<section class="portfolio" id="projects">
+    <h2>My Projects</h2>
+    <div class="Portfolio-content">
+        <div class="box">
+            <img src="portbad/instagraham.JPG" alt="Project 1">
+            <h3>Instagraham</h3>
+            <p>This is my instagraham website this website the assignment. This website can do upload pic, comment on pic,signup,login and more things</p>
+        </div>
+        <div class="box">
+            <img src="portbad/mcdonalds.JPG" alt="Project 2">
+            <h3>Mcdonalds</h3>
+            <p>This is my Mcdonalds website this was the interactive website have so many options like login,signup,upload video, see video, mini game and more</p>
+        </div>
+    </div>
+</section>
+    
+
+<section class="contact" id="contact">
+    <h2>Contact Information</h2>
+     
+        <p>Email: badrulshah@example.com</p>
+        <p>Phone number: 0178009830</p>
+</section>
+
+<div class="footer">
+    <p>&copy; 2024 Muhammad Badrul Shah. All Rights Reserved.</p>
+</div>
+
+</body>
+</html>
